@@ -11,11 +11,8 @@ import css from "./tech/css.png";
 import python from "./tech/python.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import bootstrap from "./tech/bootstrap.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
 import scale from "./company/scale.png";
@@ -40,11 +37,8 @@ export {
   python,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
   bootstrap,
-  tailwind,
   typescript,
   scale,
   security,

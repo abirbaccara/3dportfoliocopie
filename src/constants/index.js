@@ -9,9 +9,6 @@ import {
     css,
     reactjs,
     bootstrap,
-    tailwind,
-    nodejs,
-    mongodb,
     python,
     scale,
     mihai_eminescu,
@@ -80,18 +77,6 @@ import {
     {
       name: "Bootstrap",
       icon: bootstrap,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Python",
