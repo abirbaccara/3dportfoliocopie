@@ -13,7 +13,6 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import bootstrap from "./tech/bootstrap.png";
-import typescript from "./tech/typescript.png";
 
 import scale from "./company/scale.png";
 import security from "./company/security.png";
@@ -39,7 +38,6 @@ export {
   javascript,
   reactjs,
   bootstrap,
-  typescript,
   scale,
   security,
   mihai_eminescu,
