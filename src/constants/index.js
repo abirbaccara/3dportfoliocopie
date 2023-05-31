@@ -12,10 +12,7 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    git,
     python,
-    ubuntu,
-    motokodfinity,
     scale,
     mihai_eminescu,
     online_library,
@@ -23,7 +20,6 @@ import {
     NFTMarketplace,
     personalportfolio,
     DBank,
-    Token,
   } from "../assets";
   
   export const navLinks = [
@@ -98,20 +94,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
       name: "Python",
       icon: python,
-    },
-    {
-      name: "Ubuntu",
-      icon: ubuntu,
-    },
-    {
-      name: "Motoko",
-      icon: motokodfinity,
     },
   ];
   
@@ -259,27 +243,6 @@ import {
       ],
       image: DBank,
       source_code_link: "https://github.com/abirbaccara/DBank",
-    },
-    {
-      name: "DFaucet Token",
-      description:
-        "In the realm of cryptocurrency,I created my own crypto token within a web application called DFaucet. Leveraging the power of React.js, I am able to develop a visually appealing and frontend inspired from the 90's style that seamlessly integrates with the crypto token creation process. With JavaScript, I can implement the necessary functionalities for token creation, such as defining token parameters, and facilitating transactions. Through the creation of my own crypto token on this web application, I am stepping into the world of decentralized finance and contributing to the ever-evolving landscape of cryptocurrencies.",
-      tags: [
-        {
-          name: "React.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Motoko",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-      ],
-      image: Token,
-      source_code_link: "https://github.com/abirbaccara/DFaucet-Token",
     },
   ];
   

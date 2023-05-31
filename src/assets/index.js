@@ -8,10 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import ubuntu from "./tech/ubuntu.png";
-import motokodfinity from "./tech/motokodfinity.png";
 import python from "./tech/python.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -29,7 +26,6 @@ import online_library from "./company/online_library.png";
 import NFTMarketplace from "./NFTMarketplace.png";
 import personalportfolio from "./personalportfolio.png";
 import DBank from "./DBank.png";
-import Token from "./Token.png";
 
 export {
   logo,
@@ -41,10 +37,7 @@ export {
   menu,
   close,
   css,
-  ubuntu,
-  motokodfinity,
   python,
-  git,
   html,
   javascript,
   mongodb,
@@ -60,5 +53,4 @@ export {
   NFTMarketplace,
   personalportfolio,
   DBank,
-  Token,
 };
