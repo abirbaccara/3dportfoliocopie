@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf")
+  const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
@@ -30,22 +30,29 @@ const Computers = ({ isMobile }) => {
 }
 
 const ComputersCanvas = () => {
+
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+
+    console.log("useEffect hook called");
+
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
+      
+      console.log("Media query change event:", event);
+      
       setIsMobile(event.matches);
     }
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     return () => {
-      mediaQuery.removeEventListener("change",handleMediaQueryChange);
-    }
-  }, [])
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
 
   return(
     <Canvas
@@ -64,7 +71,7 @@ const ComputersCanvas = () => {
       </Suspense>
       <Preload all />
     </Canvas>
-  )
-}
+  );
+};
 
 export default ComputersCanvas; 
